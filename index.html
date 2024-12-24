@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saifs Country Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="headerWrapper">
+        <h1 class="mainHeading">Guess the Country</h1>
+    </div>
+    <div class="contentWrapper">
+        
+        <div class="flagContent"></div>
+        <div class="cardContent">
+            <input type="text" placeholder="Type a country name..." id="userInput" onkeydown="if(event.keyCode==13)inputGuess()" autofocus>
+        </div>
+    </div>
+    <div class="scoreBarWrapper">
+        <div class="scoreBar">
+            <h2>Streak: </h2> 
+            <label id="streakCounter"></label>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
