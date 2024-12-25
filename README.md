@@ -2,7 +2,7 @@
 
 A fun and interactive web game where users guess the country based on its flag! This project utilizes the [REST Countries API](https://restcountries.com/) to dynamically fetch flag data, creating an engaging and educational experience.
 
-Demo the game here? [REST Countries API](https://rest-countries-api-game.web.app) 
+Demo the game here: [REST Countries API Game:](https://rest-countries-api-game.web.app) 
 
 ## 🚀 Features
 - **Flag Guessing**: Random flags are displayed, and players must choose the correct country name from multiple options.
